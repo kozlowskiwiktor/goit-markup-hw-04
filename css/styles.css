@@ -281,12 +281,13 @@ li > img {
   /* background-color: #000000; */
   justify-content: center;
   align-items: center;
+  fill: #afb1b8;
 }
 .sm-icon:hover,
 .sm-icon:focus {
   background-color: var(--main-color);
   border-radius: 50%;
-  --color4: var(--primary-color);
+  fill: var(--primary-color);
   cursor: pointer;
 }
 .our-clients {
@@ -342,6 +343,7 @@ li > img {
   gap: 10px;
 }
 .f-sm-icon {
+  fill: var(--primary-color);
   background-color: rgba(255 255 255 / 0.1);
   border-radius: 50%;
 }
